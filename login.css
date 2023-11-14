@@ -34,7 +34,7 @@ input::placeholder{
 }
 input:hover{
     background-color:white;
-    color:red;
+    color:green;
     border:2px solid black;
     box-shadow:7px 7px 8px gray;
 
