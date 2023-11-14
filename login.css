@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:sans-serif;
+    background:linear-gradient(#40b930,#309db9);
+}
+.container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:300px;
+    height:300px;
+    align-items:center;
+    justify-content:center;
+    margin:auto;
+    padding:70px;  
+    padding-top:90px;   
+    border-radius:10px;  
+    
+}
+input{
+    width:100%;
+    height:25px;
+    margin:5px;
+    padding:5px;
+   
+    outline:none;
+
+}
+input::placeholder{
+    color:#000;
+}
+input:hover{
+    background-color:white;
+    color:red;
+    border:2px solid black;
+    box-shadow:7px 7px 8px gray;
+
+}
